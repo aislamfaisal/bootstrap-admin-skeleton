@@ -1,0 +1,18 @@
+/* Text Input Box */
+
+.whiteInputBox {
+    color: #999999;
+    border-color: #aab2bd;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.whiteInputBox:focus{
+    border-color: #ccd1d8;
+    outline: 0;
+    box-shadow: none;
+}
+
+.radius{
+    border-radius: 20px;
+}
