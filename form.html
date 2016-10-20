@@ -127,19 +127,132 @@
         <div class="container-fluid">
             <div class="content-area">
                 <div class="row">
-                    <div class="col-md-4">
-                        <h3>
-                            Form
-                        </h3>
-                        <div class="form-group">
-                            <input type="email" class="form-control whiteInputBox" id="inputEmail" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control whiteInputBox" id="textArea"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control whiteInputBox radius" id="inputEmail" placeholder="Email">
-                        </div>
+                    <h3 class="block-heading">Basic Forms</h3>
+                    <div class="col-md-6">
+                        <h4 class="block-subheading">Rectangular Form</h4>
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="inputEmail">Email address</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputPassword">Password</label>
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputFile" class="custom-file-input btn-default btn-sm">
+                                    <input type="file" id="inputFile">
+                                    Choose file
+                                </label>
+                                <p class="help-block">Example block-level help text here.</p>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="block-subheading">Rounded Form</h4>
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="inputEmail">Email address</label>
+                                <input type="email" class="form-control rounded" id="inputEmail" placeholder="Email">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputPassword">Password</label>
+                                <input type="password" class="form-control rounded" id="inputPassword" placeholder="Password">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputFile" class="custom-file-input btn-default btn-sm rounded">
+                                    <input type="file" id="inputFile">
+                                    Choose file
+                                </label>
+                                <p class="help-block">Example block-level help text here.</p>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary rounded">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3 class="block-heading">Horizontal Forms</h3>
+                    <div class="col-md-6">
+                        <h4 class="block-subheading">Rectangular Form</h4>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-primary">
+                                        Sign in
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="block-subheading">Rounded Form</h4>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control rounded" id="inputEmail" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control rounded" id="inputPassword" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-primary rounded">
+                                        Sign in
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3 class="block-heading">Inline Forms</h3>
+                    <div class="col-md-6">
+                        <h4 class="block-subheading">Rectangular Form</h4>
+                        <form class="form-inline form-inline-sample" role="form">
+                            <div class="form-group">
+                                <label class="sr-only" for="inputEmail">Email address</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="block-subheading">Rounded Form</h4>
+                        <form class="form-inline form-inline-sample" role="form">
+                            <div class="form-group">
+                                <label class="sr-only" for="inputEmail">Email address</label>
+                                <input type="email" class="form-control rounded" id="inputEmail" placeholder="Enter email">
+                            </div>
+                            <button type="submit" class="btn btn-primary rounded">Subscribe</button>
+                        </form>
                     </div>
                 </div>
             </div>
