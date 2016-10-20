@@ -328,11 +328,12 @@ body {
     margin-bottom: 25px;
 }
 
-.demo-page .block-subheading {
+.block-subheading {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 400;
     color: #999;
+    margin-bottom: 20px;
 }
 
 /* Footer classes */
