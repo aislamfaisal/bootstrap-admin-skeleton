@@ -318,6 +318,16 @@ body {
     text-transform: uppercase;
 }
 
+/* Block Heading */
+.block-heading {
+    font-size: 26px;
+    font-weight: 300;
+    padding-bottom: 13px;
+    color: #999;
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom: 25px;
+}
+
 /* Footer classes */
 .footer {
     padding: 10px 0px;
