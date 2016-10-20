@@ -13,7 +13,10 @@ html {
 body {
     /*overflow-x: hidden;*/
     background: #f3f8ff;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4c4c4c;
 }
 
 /* Structure classes */
