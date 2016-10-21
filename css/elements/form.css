@@ -60,6 +60,10 @@ input[type="file"] {
     display: block;
 }
 
+.input-group-addon{
+    border: 2px solid;
+}
+
 .has-feedback label~.form-control-feedback {
     top: 62%;
 }
