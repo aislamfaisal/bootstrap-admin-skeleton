@@ -60,6 +60,10 @@ input[type="file"] {
     display: block;
 }
 
+.has-feedback label~.form-control-feedback {
+    top: 62%;
+}
+
 .btn, .btn-outlined, .custom-file-input {
     font-size: 15px;
     font-weight: normal;
@@ -70,6 +74,10 @@ input[type="file"] {
     cursor: pointer;
     -webkit-transition: background-color .3s;
     transition: background-color .3s;
+}
+
+.custom-file-input{
+    padding: 5px 30px !important;
 }
 
 .custom-file-input:hover{
