@@ -1,6 +1,8 @@
 #login-wrapper{
+    height: auto;
+    overflow: hidden;
     background-color: #fff;
-    padding: 10px;
+    padding: 30px 50px;
     font-family: 'Nunito', sans-serif;
 }
 #login-wrapper h3{
@@ -8,4 +10,169 @@
     color: #7f9091;
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 30px;
+}
+#login-wrapper .form-group{
+    margin-bottom: 30px;
+}
+#login-wrapper .input-group .input-group-addon {
+    padding: 6px 25px;
+    color: #555;
+    background-color: transparent;
+    border: 2px solid #f2f6f6;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#login-wrapper .input-group .input-group-addon .fa{
+    width: 40px;
+    height: 40px;
+    background-color: #e6ebed;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+}
+#login-wrapper .input-group .form-control{
+    height: 70px;
+    font-size: 16px;
+    color: #d5d8dc;
+    border: 2px solid #f2f6f6;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+    box-shadow: none;
+}
+#login-wrapper .remember-forgot{
+    color: #7f9091;
+}
+.checkbox {
+    padding-left: 20px;
+}
+.checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+}
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    left: 0;
+    margin-left: -20px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    left: 0;
+    top: 0;
+    margin-left: -20px;
+    padding-left: 8px;
+    padding-top: 1px;
+    font-size: 15px;
+    color: #fff;
+}
+.checkbox input[type="checkbox"] {
+    opacity: 0;
+}
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: none;
+}
+.checkbox input[type="checkbox"]:checked + label::after {
+    font-family: 'FontAwesome';
+    content: "\f00c";
+}
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+    background-color: #18ab86;
+    border-color: #fff;
+}
+#login-wrapper .remember-forgot .text-right{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+#login-wrapper .btn-login, #login-wrapper .btn-login:focus, #login-wrapper .btn-login:hover, #login-wrapper .btn-login:active {
+    width: 100%;
+    background-color: #18ab86;
+    border-color: transparent;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 19px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+}
+#login-wrapper .btn-github, #login-wrapper .btn-github:focus, #login-wrapper .btn-github:hover, #login-wrapper .btn-github:active {
+    width: 100%;
+    background-color: #697677;
+    border-color: transparent;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 19px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+}
+#login-wrapper .btn-google, #login-wrapper .btn-google:focus, #login-wrapper .btn-google:hover, #login-wrapper .btn-google:active {
+    width: 100%;
+    background-color: #4d6ff2;
+    border-color: transparent;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 19px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+}
+#login-wrapper .btn-github .fa{
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    color: #697677;
+}
+#login-wrapper .btn-google .fa{
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    color: #4d6ff2;
+}
+
+#login-wrapper .or-box {
+    position: relative;
+    border-top: 3px solid #e6ebed;
+    padding-top: 20px;
+    margin-top: 200px;
+}
+#login-wrapper .or-box .or {
+    color: #7f9091;
+    background-color: #e6ebed;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    top: -30px;
+    width: 50px;
+    height: 50px;
+    left: 47%;
+    padding-top: 15px;
 }
