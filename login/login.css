@@ -1,0 +1,11 @@
+#login-wrapper{
+    background-color: #fff;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+#login-wrapper h3{
+    font-size: 30px;
+    color: #7f9091;
+    text-align: center;
+    text-transform: uppercase;
+}
