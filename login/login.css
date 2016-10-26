@@ -47,6 +47,9 @@
 #login-wrapper .remember-forgot{
     color: #7f9091;
 }
+#login-wrapper .remember-forgot a:hover{
+    text-decoration: none;
+}
 .checkbox {
     padding-left: 20px;
 }
